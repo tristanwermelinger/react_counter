@@ -1,14 +1,13 @@
 const Decrement = (props) => {
-  return (
+  return props.counter !== 0 ? (
     <button
-      className={props.counter === 0 && "none"}
       onClick={() => {
         props.setCounter(props.counter - 1);
       }}
     >
       -
     </button>
-  );
+  ) : null;
 };
 
 export default Decrement;
