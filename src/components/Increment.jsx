@@ -1,10 +1,10 @@
 const Increment = (props) => {
   return (
-    <button>
-      onClick=
-      {() => {
+    <button
+      onClick={() => {
         props.setCounter(props.counter + 1);
       }}
+    >
       +
     </button>
   );
