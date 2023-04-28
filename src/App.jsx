@@ -8,7 +8,7 @@ import AddCounter from "./components/AddConter";
 function App() {
   //console.log(App);
   const [counter, setCounter] = useState(0);
-
+  console.log(counter);
   return (
     <>
       <div>
