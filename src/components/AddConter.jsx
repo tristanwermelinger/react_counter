@@ -1,16 +1,16 @@
-const Reset = (props) => {
+const AddCounter = (props) => {
   return (
     <button
       className="size"
       onClick={() => {
         {
-          props.setCounter(0);
+          props.setAddCounter();
         }
       }}
     >
-      Reset
+      Add Counter
     </button>
   );
 };
 
-export default Reset;
+export default AddCounter;
